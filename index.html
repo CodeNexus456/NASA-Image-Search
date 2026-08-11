@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NASA Image Search</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+          <div class="box1">
+
+            <img src="images/nasa.png"  alt="">
+          <h1>  NASA Image Search</h1>
+          </div>
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search NASA images..."
+            >
+
+            <button id="searchBtn">
+                Search
+            </button>
+        </div>
+        </div>
+        <div class="div">
+          <p class="para"></p>
+        </div>
+
+        <div id="loading"></div>
+        <div id="gallery"></div>
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>
