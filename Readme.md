@@ -4,9 +4,7 @@ A responsive web application that allows users to search and explore NASA's vast
 
 ## 🌐 Live Demo
 
-**Live Demo:** Add your deployed project link here
-
-**GitHub:** Add your GitHub repository link here
+**Live Demo:** https://nasa-image-search-ten.vercel.app/
 
 ---
 
@@ -165,7 +163,7 @@ Astronaut
 Add your project screenshots here:
 
 ```markdown
-![NASA Image Search Screenshot](./screenshots/home.png)
+![NASA Image Search Screenshot](images/apollo.png)
 ```
 
 ---
